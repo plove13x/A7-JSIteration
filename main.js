@@ -7,7 +7,7 @@ return a + b;
 }) / items.length;
 console.log("The average price is $" + avgPrice.toFixed(2));
 
-//2.    (Don't need the "..." after each item, braces, brackets, etc., right?)
+//2.    (Don't need the "...", braces, brackets, etc. after each item, right?)
 
 console.log("Items that cost between $14.00 USD and $18.00 USD: ");
 var costArray = items.filter(function(item) {
@@ -24,7 +24,7 @@ var britStuff = items.filter(function(item) {
 console.log(item.title + " costs £" + item.price);
 });
 
-//4.          (Worked...now doesn't?)
+//4.        
 
 items.filter(function(item) {
   return item.materials.indexOf("wood") >= 0;
@@ -32,7 +32,7 @@ items.filter(function(item) {
   console.log(item.title);
 });
 
-//5.          (Worked...now doesn't?)
+//5.          
 
 items.filter(function(item) {
   return item.materials.length >= 8;
